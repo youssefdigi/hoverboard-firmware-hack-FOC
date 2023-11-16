@@ -1,3 +1,4 @@
+//program controling the board hover from serial communication using usart3
 // Define to prevent recursive inclusion
 #ifndef CONFIG_H
 #define CONFIG_H
