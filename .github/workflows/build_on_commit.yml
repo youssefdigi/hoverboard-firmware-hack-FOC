@@ -13,10 +13,10 @@ jobs:
 
     steps:
     # Get required packages
+
     - uses: actions/checkout@v3
-    - uses: carlosperate/arm-none-eabi-gcc-action@v1
-      with:
-        release: '9-2019-q4'
+    - uses: actions/setup-python@v4
+
 
     # Build with make
     - name: make
