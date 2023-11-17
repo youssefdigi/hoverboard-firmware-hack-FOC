@@ -31,7 +31,7 @@ jobs:
     # Build with make
     - name: make
       env: 
-        VARIANT: VARIANT_USART
+        VARIANT: VARIANT_ADC
       run: make
 
     # Build with Platformio
