@@ -702,11 +702,11 @@
 #endif
 
 #if defined(DEBUG_SERIAL_USART2) && defined(DEBUG_SERIAL_USART3)
-  #error DEBUG_SERIAL_USART2 and DEBUG_SERIAL_USART3 not allowed, choose one.
+ // #error DEBUG_SERIAL_USART2 and DEBUG_SERIAL_USART3 not allowed, choose one.
 #endif
 
 #if defined(DEBUG_SERIAL_USART2) && defined(DEBUG_SERIAL_USART3)
-  #error DEBUG_SERIAL_USART2 and DEBUG_SERIAL_USART3 not allowed, choose one.
+ // #error DEBUG_SERIAL_USART2 and DEBUG_SERIAL_USART3 not allowed, choose one.
 #endif
 
 #if defined(CONTROL_PPM_LEFT) && defined(CONTROL_PPM_RIGHT)
